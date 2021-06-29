@@ -1,0 +1,28 @@
+:root{
+    --secondary-color: #543093ff;
+    --primary-color: #ffffff;
+    --black-color: #000000ff;
+    --grey-color: #eeeeeeff;
+    --light-orange: #e6b8afff;
+    --deep-orange: #dd7e6bff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+img{
+    ba
+}
+
+ul{
+    list-style-type: none;
+}

@@ -19,28 +19,34 @@ body{
     line-height: 1.6;
 }
 
-.bg-light {
-    background-color: white!important;
-}
-
-.active {
-    background-color: var(--secondary-color);
-    border-radius: 8px;
-    color: var(--primary-color)!important;
-}
 
 nav{
     margin-top: 1em;
     font-weight: bold;
     height: 50px;
 }
+.bg-light {
+    background-color: white!important;
+}
 
 .nav-link{
-    color: rgb(48, 43, 43);
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
 }
+.active {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    color: var(--primary-color)!important;
+}
+
 
 .navbar-brand {
     margin-left: 5%;
+}
+
+.ml-auto{
+    margin-left: 68%;
 }
 
 hr{

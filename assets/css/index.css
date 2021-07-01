@@ -21,9 +21,12 @@ body{
 
 
 nav{
-    margin-top: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: bold;
-    height: 50px;
+    height: 64px;
+    border-bottom: 1px solid grey;
+
 }
 .bg-light {
     background-color: white!important;
@@ -31,7 +34,7 @@ nav{
 
 .nav-link{
     font-size: 16px;
-    margin: 15px;
+    margin: 10px;
     color: black !important;
 }
 .active {
@@ -40,16 +43,94 @@ nav{
     color: var(--primary-color)!important;
 }
 
+.navbar-toggler {
+    border: none;
+}
 
-.navbar-brand {
-    margin-left: 5%;
+.navbar-toggler-icon{
+    width: 2em;
+    height: 2em;
 }
 
 .ml-auto{
-    margin-left: 68%;
+    margin-left: 65%;
 }
 
-hr{
-    margin-top: 10px;
-    border-bottom: 1px solid grey;
+.navbar-brand{
+    padding-left: 7%;
 }
+
+.navbar-brand img{
+    height: 70px;
+}
+
+
+.main{
+    margin: auto;
+    width: 85%;
+    padding-top: 15%;
+}
+.main img{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.cta-text{
+    margin-top: 20%;
+}
+
+.cta-text h1{
+    font-weight: 900;
+    color: var(--black-color);
+}
+
+.cta-para{
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+.btn-get-started,
+.btn-learn-more{
+    border: 2px solid var(--secondary-color) !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.btn-get-started,
+.btn-learn-more:hover{
+    background-color: var(--secondary-color);
+    border-color: none;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.btn-learn-more{
+    color: var(--secondary-color);
+}
+
+.btn-get-started {
+    margin-left: 7px;
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+p{
+    font-size: 17px;
+}
+
+.description{
+    padding: 80px;
+    margin: auto;
+    background-color: var(--grey-color);
+}
+
+.description h1{
+    font-weight: 700;
+    color: var(--black-color)
+}
+

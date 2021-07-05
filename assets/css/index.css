@@ -346,7 +346,9 @@ footer h3{
     .section-desc{
         padding-bottom: 15%;
     }
-
+    .process-section .col-md-3{
+        margin-top: 12px;
+    }
     .process-section{
         padding-top: 15%;
         padding-top: 12%;

@@ -22,10 +22,9 @@ body{
 
 nav{
     padding-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-weight: bold;
     height: 12%;
-    /* border-bottom: 0.1px solid rgb(202, 193, 193); */
     box-shadow: 1px 1px 6px rgb(179, 168, 166);
 
 }
@@ -69,13 +68,13 @@ nav{
 
 .main{
     margin: auto;
-    width: 85%;
     padding-top: 15%;
+    padding-bottom: 10%;
 }
 .main img{
     margin: auto;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .cta-text{
@@ -96,7 +95,7 @@ nav{
 .btn-learn-more{
     border: 2px solid var(--secondary-color) !important;
     font-size: 1.2rem;
-    font-weight: 600;
+    /* font-weight: 600; */
 
 }
 
@@ -117,6 +116,7 @@ nav{
     color: var(--secondary-color);
 }
 
+
 .btn-get-started {
     margin-left: 7px;
     background-color: var(--secondary-color) !important;
@@ -127,9 +127,9 @@ p{
     font-size: 17px;
 }
 
-.main{
+/* .main{
     height: 90vh;
-}
+} */
 .description{
     padding: 80px;
     margin: auto;
@@ -143,6 +143,11 @@ p{
     padding-bottom: 10px;
 }
 
+hr{
+    display: none;
+    
+}
+
 .services-section {
     padding-top: 8rem;
 }
@@ -151,6 +156,8 @@ p{
     color: black;
     padding-bottom: 1.5em;
 }
+
+
 
 .services-section .svg-inline--fa{
     color: rgb(231, 78, 47);
@@ -168,12 +175,16 @@ p{
     padding: 10px;
 }
 
-.process-section .col{
+.process{
+    width: 80%;
+}
+.process-section .col-md-3{
     background-color: rgb(247, 247, 248);
-    margin: 8px;
     border-radius: 8px;
     padding-top: 15px;
+    /* margin: 8px; */
 }
+
 
 .process-section h2,
 .patners-section h2{
@@ -228,3 +239,143 @@ footer h3{
     margin: 6px 2px;
 }
 
+.copy{
+    padding-top: 5%;
+    text-align: center;
+    font-size: .8rem;
+}
+/* Media Query */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px){ 
+    body { 
+        padding-top: 63px; 
+    }
+    
+    .navbar-brand img{
+        height: 45px;
+    }
+
+    .cta-text h1{
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+
+    .cta-text{
+        text-align: center;
+        margin: 100px 0 75px 10px;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        padding-bottom: 40px;
+    }
+
+    .cta-text p{
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+
+    .btn-get-started,
+    .btn-learn-more{
+        font-size: .9rem;
+    }
+    
+    hr{
+        display: block;
+        width: 10%;
+        margin: auto;
+        background-color: var(--secondary-color);
+        border-top: 10px solid var(--secondary-color);
+        border-radius: 5px;
+    }
+   
+    .description{
+        padding: 2px;
+        background-color: var(--primary-color);
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .description p{
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .services-section{
+        /* background-color: rgb(252, 252, 252); */
+        padding-top: 15%;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .services-section p{
+        text-align:start;
+        font-size:.95rem;
+        font-weight: 500;
+    }
+
+    .services-section .svg-inline--fa{
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+
+    .services-section h1{
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .services-section h3{
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .section-desc{
+        padding-bottom: 15%;
+    }
+
+    .process-section{
+        padding-top: 15%;
+        padding-top: 12%;
+        /* display: block; */
+    }
+    .process-section .steps{
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin: auto;
+        width: 35px;
+        height: 35px;
+    }
+
+    .patners-section{
+        padding-top: 12%;   
+    }
+
+    .patners-section .img-thumbnail{
+        height: 5rem;
+    }
+    
+    footer{
+        padding: 75px 10px 5px;
+    }
+
+    footer img{
+        display: none;
+    }
+    .resources,
+    .title{
+        display: grid;
+        align-items: center;
+    }
+
+    .social-link,
+    .resources{
+        text-align: center;
+
+    }
+
+    .copy{
+        padding-top: 10%;
+        text-align: center;
+        font-size: .5rem;
+    }
+    
+}

@@ -99,10 +99,14 @@ nav{
 
 }
 
-.btn-get-started,
-.btn-learn-more:hover{
+.btn-get-started{
     background-color: var(--secondary-color);
     border-color: none;
+}
+
+.btn-learn-more:hover{
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color);
 }
 
 .btn:focus, 

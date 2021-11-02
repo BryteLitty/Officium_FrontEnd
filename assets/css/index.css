@@ -182,10 +182,16 @@ hr{
 .process{
     width: 80%;
 }
+
+/* .process-section{
+    background-color: var(--secondary-color);
+} */
+
 .process-section .col-md-3{
-    background-color: rgb(247, 247, 248);
+    /* background-color: rgb(50, 50, 175); */
     border-radius: 8px;
     padding-top: 15px;
+
     /* margin: 8px; */
 }
 

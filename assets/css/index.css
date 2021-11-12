@@ -103,6 +103,13 @@ nav{
 .btn-get-started{
     background-color: var(--secondary-color);
     border-color: none;
+
+    width: 250px;
+    height: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .btn-learn-more:hover{

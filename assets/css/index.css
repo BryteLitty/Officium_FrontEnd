@@ -188,19 +188,78 @@ hr{
 
 
 .skills-section{
-    background-color: var(--primary-yellow);
     padding: 10%;
 }
 
-.skills-section h1 {
+.skills-section h3 {
     font-weight: 700;
-    color: black;
+    color: #A80F1E !important;;
 }
 
 .skills-section h4 {
     font-weight: 600;
     padding-top: 3%;
 }
+
+.images {
+    padding: 10px;
+}
+
+#grow{
+    color: #A80F1E !important;
+}
+
+#diff,
+.value-prep h5 {
+    color: #A80F1E !important;
+    font-weight: 900;
+}
+
+.value-prep h3{
+    color: #F27D21;
+    font-weight: 500;
+}
+
+.value-prep {
+    background-color: #E5E5E5;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.value-prep .row {
+    padding-top: 10px;
+}
+
+.circle {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.skills-section img {
+    background-color: #9C2B8F;
+    padding: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+.bg-orange {
+    background-color: #F27D21 !important;
+}
+
+.skill-text {
+    padding: 25px;
+    color: black;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+
 
 
 /* .section-desc{
@@ -250,6 +309,13 @@ hr{
 
 .patners-section{
     padding: 10%;
+}
+
+.patners-section h2{
+    color: #C4C4C4;
+    font-size: 20px;
+    letter-spacing:3px;
+
 }
 
 .patners-section .img-thumbnail{

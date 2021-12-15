@@ -1,5 +1,6 @@
 :root{
-    --secondary-color: #543093ff;
+    --secondary-color: #A80F1E;
+    --primary-yellow: #F5ED0A;
     --primary-color: #ffffff;
     --black-color: #000000ff;
     --grey-color: #eeeeeeff;
@@ -100,6 +101,7 @@ input.form-check-input:focus{
     font-weight: 700;
     padding-bottom: 5%;
 }
+
 
 small{
     font-size: 1rem;

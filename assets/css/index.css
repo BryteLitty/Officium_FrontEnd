@@ -188,17 +188,22 @@ hr{
 
 
 .skills-section{
-    padding: 10%;
+    padding-top: 5%;
 }
 
 .skills-section h3 {
     font-weight: 700;
-    color: #A80F1E !important;;
+    color: #A80F1E !important;
+    padding-bottom: 10px;
 }
 
 .skills-section h4 {
     font-weight: 600;
     padding-top: 3%;
+}
+
+.skills-section .col-md-4 {
+    padding: 50px 0 50px 0;
 }
 
 .images {
@@ -260,6 +265,20 @@ hr{
 }
 
 
+/* Talent Section */
+.talent-section {
+    background-color: #EBECED;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    
+}
+
+.talent-section img {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
 
 
 /* .section-desc{
@@ -308,7 +327,7 @@ hr{
 }
 
 .patners-section{
-    padding: 10%;
+    padding: 5%;
 }
 
 .patners-section h2{

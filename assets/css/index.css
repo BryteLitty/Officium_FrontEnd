@@ -64,7 +64,7 @@ nav{
 }
 
 .navbar-brand img{
-    height: 70px;
+    height: 60px;
 }
 
 
@@ -237,13 +237,17 @@ hr{
 }
 
 .circle {
+    display: inline-block;
     background-color: white;
     color: black;
     border-radius: 50%;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
+    /* margin: auto; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .skills-section img {
@@ -279,6 +283,37 @@ hr{
     margin: auto;
 }
 
+.newsletter-section {
+    background-color: #EBECED;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.newsletter-section h3 {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.newsletter-section input[type=email] {
+    width: 80;
+    padding: 2%;
+    border: none;
+}
+
+.newsletter-section button {
+    background-color: var(--secondary-color);
+    margin-top: 2%;
+    border: none;
+    padding: 2% 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.newsletter-section button:hover,
+.newsletter-section button:active {
+    background-color: var(--secondary-color);
+}
+
 
 
 /* .section-desc{
@@ -293,10 +328,6 @@ hr{
 } */
 
 
-
-/* .process-section{
-    background-color: var(--secondary-color);
-} */
 
 .process-section .col-md-3{
     /* background-color: rgb(50, 50, 175); */
